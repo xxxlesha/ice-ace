@@ -1,6 +1,179 @@
+/*Vse stili*/
 @font-face {
   font-family: "Futura";
-  src: url() format(),
+  src: url("../fonts/futurabold.tff") format("ttf"),
   font-style: normal;
   font-weight: normal;
 }
+
+.body {
+  font-family: "Futura", sans-serif;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.instructors {
+  width: 1160px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.p {
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+
+/*Promo*/
+
+.promo {
+  padding-top: 100px;
+  padding-bottom: 350px;
+  background-image: url(../img/glavnaya_fon.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.promo h1{
+  color: #fff;
+  font-size: 50px;
+  width: 470px;
+}
+
+.promo span {
+  font-size: 38px;
+  display: block;
+  margin-top: 30px;
+}
+
+/**/
+
+.header button{
+  float: left;
+  border: 2px solid #000;
+  color: #74e196;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  width: 130px;
+  margin-top: 40px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+/**/
+
+
+.main {
+  padding: 0;
+  margin: 0;
+  margin-top: 43px;
+}
+
+
+.services h3 {
+  font-size: 20px;
+  text-align: left;
+  margin: 5px;
+  margin-bottom: 30px;
+}
+
+.nav {
+  float: left;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.main-link{
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+
+.a button {
+  border-bottom: 2px solid #74e196;
+  padding-bottom: 5px;
+}
+
+/*SERVICE(BLOCK)*/
+
+.block {
+  overflow: hidden;
+  margin-top: 45px;
+}
+
+.block_doc {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin: 18px;
+  height: 250px;
+  text-align: left;
+}
+
+.block .img {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin: 18px;
+}
+
+.block p {
+  display: inline-block;
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.block-link p {
+  width: 150px;
+}
+
+.block-link{
+  margin-top: 30px;
+}
+
+.more{
+  position: relative;
+  top: 10px;
+  background-image: url();
+  display: inline-block;
+  width: 37px;
+  height: 30px;
+  background-repeat: no-repeat;
+  margin-left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

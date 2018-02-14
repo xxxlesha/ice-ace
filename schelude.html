@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Рассписание</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container-coach">
+
+      <div class="logo">
+        <a href="#"><img src="http://via.placeholder.com/50x50" alt="logo"></a>
+      </div>
+
+      <nav>
+        <ul class="main-nav">
+          <li><a class="main-link" href="#">Расписание</a></li>
+          <li><a class="main-link" href="#">Инструкторы</a></li>
+          <li><a class="main-link" href="#">Стоимость</a></li>
+          <li><a class="main-link" href="#">Как добраться</a></li>
+        </ul>
+      </nav>
+      <a class="phone" href="tel:+7(800)-800-80-80">8(800)-800-80-80</a>
+      <a class="button" href="#">Записаться</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="programm">
+      <div class="container">
+        <h2>Выбрать программу</h2>
+        <table empty-cells: show  class="programm-table">
+          <tr class="table_line-main">
+            <th>Спорт</th>
+            <th>Инструктор</th>
+            <th>Дата</th>
+            <th>Время</th>
+            <th>Стоимость</th>
+          </tr>
+
+          <tr class="table_line">
+            <td>Сноуборд</td>
+            <td>Константин Константинопольский</td>
+            <td>30.03.2017</td>
+            <td>12:00</td>
+            <td>2000 руб.</td>
+            <td><a href="#" class="btn table_button">Записаться</a></td>
+          </tr>
+
+          <tr class="table_line">
+            <td>Сноуборд</td>
+            <td>Константин Константинопольский</td>
+            <td>01.04.2017</td>
+            <td>12:00</td>
+            <td>2000 руб.</td>
+            <td><a href="#" class="btn table_button">Записаться</a></td>
+          </tr>
+
+          <tr class="table_line">
+            <td>Лыжи</td>
+            <td>Степан Александров</td>
+            <td>01.04.2017</td>
+            <td>13:00</td>
+            <td>3000 руб.</td>
+            <td><a href="#" class="btn table_button">Записаться</a></td>
+          </tr>
+
+
+          <tr class="table_line">
+            <td>Лыжи</td>
+            <td>Виталий Сергеев</td>
+            <td>03.04.2017</td>
+            <td>14:00</td>
+            <td>4000 руб.</td>
+            <td><a href="#" class="btn table_button">Записаться</a></td>
+          </tr>
+
+
+          <tr class="table_line">
+            <td>Сноуборд</td>
+            <td>Арсений Петров</td>
+            <td>04.04.2017</td>
+            <td>14:00</td>
+            <td>4000 руб.</td>
+            <td><a href="#" class="btn table_button">Записаться</a></td>
+          </tr>
+        </table>
+
+        <div class="slider">
+          <div class="slider-photo">
+            <div class="slider-img"></div>
+            <div class="slider-name">Константин Константинопольский</div>
+          </div>
+
+          <div class="slider-info">
+            <h3 class="slider_info-title">Free ride / продвинутый уровень</h3>
+            <p>Дата занятия — 30 марта 2017 года.</p>
+            <p class="slider_info-bold">Абонемент на разовое посещение (3 часа)</p>
+            <p>Занятие рассчитано на опытных учеников и проходит
+              вне подготовленной трассы, рядом с горнолыжной базой. Катание по нетронутому снегу раскрывает все возможности горных лыж, а опытный инструктор научит контролировать лыжи на любой поверхности.</p>
+          </div>
+
+          <div class="slider-price">
+            <h3 class="slider_info-title">2 000 ₽<h3>
+            <a href="#" class="btn slider_price-button">Купить</a>
+          </div>
+
+          <div class="slider-link">
+            <a href="#" class="slider_link-color">Узнать больше</a>
+          </div>
+        </div>
+
+        <div class="slider_number-list">
+          <a class="arrow" href="#"><img src="" alt="back"></a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">5</a>
+          <a class="arrow" href="#"><img src="" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="ring">
+      <div class="container">
+        <h2>Заказать обратный звонок</h2>
+        <form action="#">
+          <label class="ring-text" for="text_name">*Имя</label>
+          <input id="text_name" class="form-input" type="text">
+          <label class="ring-text" for="text_name">*Фамилия</label>
+          <input class="form-input" type="text">
+          <label class="ring-text" for="text_name">*Телефон</label>
+          <input class="form-input" type="tel">
+          <label class="ring-text" for="text_name">Ваше сообщение</label>
+          <textarea class="form-input form-input-big"></textarea>
+          <input type="submit" class="btn button_form">
+        </form>
+      </div>
+    </section>
+
+
+  </main>
+
+<footer>
+
+   <div class="wrapper">
+        <div class="info">
+            <img src="http://via.placeholder.com/100x50" alt="logo" class="logo_img">
+        </div>
+        <div class="wrapper_social-links">
+            <a href="#" class="wrapper_social-links">Facebook</a>
+            <a href="#" class="wrapper_social-links">Instagram</a>
+            <a href="#" class="wrapper_social-links">Youtube</a>
+            <a href="#" class="wrapper_social-links">Telegram</a>
+        </div>
+        <div class="phone">
+            <a href="tel:880080080" class="phone_link">8 (800) 800-80-80</a>
+            <a href="mail" class="mail">/a>
+        </div>
+    </div>
+    <div class="nav">
+        <p class="">“ICE ACE”</p>
+        <ul class="main">
+            <li class=""><a href="#" class="link">расписание</a></li>
+            <li class=""><a href="#" class="link">инструкторы</a></li>
+            <li class=""><a href="#" class="link">стоимость</a></li>
+            <li class=""><a href="#" class="link">как добраться</a></li>
+        </ul>
+    </div>
+
+</footer>
+</body>
+</html>
