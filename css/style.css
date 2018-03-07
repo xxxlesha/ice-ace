@@ -1,4 +1,4 @@
-
+/*ALL STYLES*/
 
 body {
   font-family: "Futura", sans-serif;
@@ -50,7 +50,7 @@ body {
   background-color: #74e196;
 }
 
-/*Promo*/
+/*PROMO BLOCK*/
 
 .promo {
   padding-top: 100px;
@@ -72,7 +72,7 @@ body {
   margin-top: 30px;
 }
 
-/**/
+/*HEADER*/
 
 .header button {
 
@@ -183,7 +183,7 @@ body {
 }
 
 
-/**/
+/*SERVICES*/
 
 .main {
   padding: 0;
@@ -263,7 +263,7 @@ body {
 }
 
 
-/*WHY WE*/
+/*ADVANTAGES*/
 
 .advantages {
   font-size: 0;
@@ -427,7 +427,7 @@ form {
   width: 640px;
 }
 
-.search-ing {
+.search-img {
   position: relative;
   left: -45px;
   top: 10px;
@@ -435,11 +435,11 @@ form {
 
 /*PHOTO INSTRUCTORS*/
 
-.container-faces {
+.photo__title {
   margin-bottom: 40px;
 }
 
-.face {
+.photo__list {
   position: relative;
   display: inline-block;
   width: 228px;
@@ -448,7 +448,7 @@ form {
 }
 
 
-.face:before {
+.photo__list:before {
   content: '';
   position: absolute;
   width: 100%;
@@ -456,11 +456,11 @@ form {
   background-color: rgba(0, 0, 0, .4);
 }
 
-.face:hover:before {
+.photo__list:hover:before {
   display: none;
 }
 
-.coach-name {
+.photo__subscription {
   display: inline-block;
   position: relative;
   top: -80px;
@@ -470,15 +470,15 @@ form {
 }
 
 
-.coach-container {
+.label {
   width: 1040px;
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
 }
 
-.coach_photo {
-  display: inline-block;
+.label__photo {
+  display: ;
   background-image: url(../img/coach_main_avatar.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -486,27 +486,23 @@ form {
   width: 270px;
 }
 
-.coach-bio {
+.label__wrapper {
   display: inline-block;
   vertical-align: top;
   padding-left: 45px;
   width: 535px;
 }
 
-.coach-bio h3 {
-  margin: 0;
-  font-size: 26px;
-  padding-left: 30px;
-}
 
-.coach_btn {
+
+.btn__label {
   display: inline-block;
   vertical-align: top;
   margin-left: 16px;
   width: 150px;
 }
 
-.button_c {
+.btn__label-note {
   float: left;
   border: 2px solid #000;
   color: #74e196;
@@ -550,19 +546,19 @@ form {
   margin-right: 5px;
 }
 
-.coach_btn p {
+.btn__label p {
   text-align: left;
   font-size: 15px;
   margin-top: 115px;
   margin-left: 25px;
 }
 
-.coach_profile {
+.label__profile {
   width: 100%;
   padding-top: 10px;
 }
 
-.coach_profile_item {
+.label__profile-item {
   vertical-align: top;
   padding-top: 10px;
 }
@@ -575,7 +571,7 @@ form {
   padding: 0;
 }
 
-.survey-content {
+.survey__content {
   margin: 0;
   font-size: 15px;
   width: 695px;
@@ -584,13 +580,13 @@ form {
   padding: 5px 5px 30px 30px;
 }
 
-.survey-title {
+.survey__title {
   display: inline-block;
   margin: 0;
   padding: 40px 10px 10px 30px;
 }
 
-.survey-img {
+.survey__img {
   display: inline-block;
   width: 28px;
   height: 16px;
@@ -607,14 +603,14 @@ form {
   height: 320px;
 }
 
-.relation-title {
+.relation__title {
   margin: 0;
   padding-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
 }
 
-.relation-content {
+.relation__content {
   margin: 0;
   font-size: 15px;
   text-align: left;
@@ -623,32 +619,35 @@ form {
 }
 
 
-.video_profile {
+.video__profile {
   vertical-align: top;
   display: inline-block;
   width: 50%;
 }
 
-
+.coach__photo {
+   display: flex;
+   justify-content: flex-start;
+}
 
 /*SCHELUDE*/
 
-.programm-table {
+.programm__table {
   border-collapse: collapse;
   width: 100%;
   text-align: left;
 }
 
-.table_line td{
+.table__line td{
   border: 3px solid #000;
   padding-left: 10px;
 }
 
-.table_line: last-child {
+.table__line: last-child {
   padding-left: 0;
 }
 
-.table_button {
+.table__button {
   margin-left: 0;
   border: none;
   width: 100%;
@@ -662,13 +661,13 @@ form {
   box-sizing: border-box;
 }
 
-.slider-photo {
+.slider__photo {
   display: inline-block;
   width: 280px;
   position: relative;
 }
 
-.slider-img {
+.slider__img {
   display: inline-block;
   background-image: url(../img/coach_2.jpg);
   background-repeat: no-repeat;
@@ -680,7 +679,7 @@ form {
   margin: 55px;
 }
 
-.slider-name {
+.slider__name {
   position: absolute;
   left: 40px;
   top: 210px;
@@ -693,7 +692,7 @@ form {
   height: 47px;
 }
 
-.slider-info {
+.slider__info {
   display: inline-block;
   position: relative;
   top: -30px;
@@ -702,7 +701,7 @@ form {
   margin-left: 40px;
 }
 
-.slider-title {
+.slider__title {
   font-size: 30px;
   font-weight: bold;
   padding-top: 30px;
@@ -710,32 +709,32 @@ form {
   margin: 0;
 }
 
-.slider-info p {
+.slider__info p {
   text-align: left;
   font-size: 15px;
   width: 400px;
 }
 
-.slider-text {
+.slider__text {
   font-weight: bold;
   margin: 0;
   padding: 10px 5px;
 }
 
-.slider-price{
+.slider__price{
   display: inline-block;
   position: relative;
   top: -147px;
   left: 140px;
 }
 
-.slider_price-button {
+.slider__price-button {
   float: none;
   margin: 0;
   padding: 10px 35px;
 }
 
-.slider_link {
+.slider__link {
   display: inline-block;
   margin-bottom: 50px;
   text-align: center;
@@ -744,26 +743,26 @@ form {
   left: -629px;
 }
 
-.slider_link-color {
+.slider__link-color {
   padding-bottom: 3px;
   text-decoration: none;
   color: #000;
   border-bottom: 2px solid #8de8ab;
 }
 
-.slider-numbers {
+.slider__numbers {
   margin: 10px;
   text-align: center;
 }
 
-.slider-numbers a {
+.slider__numbers a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
   padding-right: 4px;
 }
 
-.container_ring {
+.container__ring {
   width: 560px;
   margin: 0 auto;
 }
@@ -781,13 +780,13 @@ input {
   top: 7px;
 }
 
-.ring-text {
+.ring__text {
   text-align: left;
   font-weight: 20px;
   font-weight: bold;
 }
 
-.button_form {
+.button__form {
   padding: 10px;
   float: none;
   margin-left: 200px;
@@ -796,14 +795,14 @@ input {
   width: 132px;
 }
 
-.form-input {
+.form__input {
   border: 1.5px solid #000;
   padding: 5px;
   height: 20px;
   margin-bottom: 15px;
 }
 
-.form-input_big {
+.form__input-big {
   height: 100px;
   width: 560px;
 }
