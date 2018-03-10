@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
   margin-top: 40px;
+  padding-bottom: 20px;
 }
 
 .instructors {
@@ -413,6 +414,10 @@ body {
   padding-left: 8px;
 }
 
+.images {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
 
 /*INSTRUCTORS AND FORM(SCHELUDE)*/
 
