@@ -471,14 +471,27 @@ form {
 
 
 .label {
-  width: 1040px;
+  max-width: 1040px;
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 }
 
-.label__photo {
-  display: ;
+.label__instructor-skills{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.label__instructor-photo {
   background-image: url(../img/coach_main_avatar.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -486,11 +499,11 @@ form {
   width: 270px;
 }
 
-.label__wrapper {
-  display: inline-block;
-  vertical-align: top;
-  padding-left: 45px;
-  width: 535px;
+.label__instructor-entry {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  max-width: 1040px;
 }
 
 
@@ -531,6 +544,7 @@ form {
   color: #000;
   padding: 10px;
   margin-top: 10px;
+  border: 2px solid #000
 }
 
 .flash:before {
@@ -551,11 +565,6 @@ form {
   font-size: 15px;
   margin-top: 115px;
   margin-left: 25px;
-}
-
-.label__profile {
-  width: 100%;
-  padding-top: 10px;
 }
 
 .label__profile-item {
@@ -626,8 +635,19 @@ form {
 }
 
 .coach__photo {
-   display: flex;
-   justify-content: flex-start;
+ display: flex;
+}
+
+.container__face {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+
+
+
 }
 
 /*SCHELUDE*/
@@ -767,6 +787,12 @@ form {
   margin: 0 auto;
 }
 
+.ring{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+
 form {
   padding: 0;
 }
@@ -797,7 +823,7 @@ input {
 
 .form__input {
   border: 1.5px solid #000;
-  padding: 5px;
+  padding: 20px;
   height: 20px;
   margin-bottom: 15px;
 }
