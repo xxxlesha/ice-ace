@@ -509,13 +509,18 @@ body {
   display: flex;
 }
 
-.label__instructor-skills{
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
+.label__instructor-name {
+  font-size: 30px;
+  font-size: 500;
+  margin-top: 0;
+}
+
+.label__instructor-skills {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
 }
 
 .label__instructor-photo {
@@ -524,6 +529,11 @@ body {
   background-size: cover;
   height: 270px;
   width: 270px;
+}
+
+.label__instructor-item {
+
+  padding:10px;
 }
 
 .label__instructor-entry {
@@ -607,10 +617,11 @@ body {
 
 .survey {
   background-image: url(../img/coach_background.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
   background-size: cover;
-  background-position: center bottom;
-  margin: 0;
-  padding: 0;
+  padding: 40px 303px 40px 40px;
+  margin-bottom: 70px;
 }
 
 .survey__content {
@@ -635,21 +646,25 @@ body {
 }
 
 .education {
-  margin: 20px 0;
+
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: stretch;
+  align-items: stretch;
+  margin-top: 30px;
+  margin-bottom: 54px;
 }
 
 .relation {
-  display: inline-block;
   vertical-align: top;
   width: 49%;
   height: 320px;
 }
 
 .relation__title {
-  margin: 0;
-  padding-bottom: 20px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
+  margin-top: 0;
 }
 
 .relation__content {
@@ -658,13 +673,18 @@ body {
   text-align: left;
   padding-bottom: 20px;
   font-weight: bold;
+
 }
 
 
 .video__profile {
-  vertical-align: top;
-  display: inline-block;
-  width: 50%;
+
+}
+
+.video__profile-link {
+
+  width: 100%;
+  height: 100%;
 }
 
 .coach__photo {
