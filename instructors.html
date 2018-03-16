@@ -11,7 +11,7 @@
 <body>
 
 
-    <header>
+    <header class="page-header">
       <div class="container">
         <div class="header__wrap">
           <div class="logo">
@@ -33,13 +33,15 @@
 
     <main>
 
-        <div class="container">
-            <h2 class="title">Инструкторы школы</h2>
-            <form class="search" action="#" align="center">
-                <input class="search__field" type="search" placeholder="Начните вводить имя">
-                <input type="submit" class="search__button">
-            </form>
-        </div>
+        <section class="search">
+            <div class="container">
+                <h2 class="title">Инструкторы школы</h2>
+                <form class="search__form" action="#" align="center">
+                    <input class="search__field" type="search" placeholder="Начните вводить имя">
+                    <input type="submit" class="search__button">
+                </form>
+            </div>
+        </section>
 
 
         <section class="photo">
@@ -63,59 +65,64 @@
 
                             <section class="label">
 
-                                <div class="label__instructor-photo">
-                                    <img src="img/coach_main_avatar.jpg" alt="coach_main">
-                                </div>
-                                <div class="label__instructor-main">
-                                    <div class="label__instructor-name">
-                                        <h3 >Константин Константинопольский</h3>
+                               <div class="container-instructor">
+                                   <div class="label__wrap">
+                                    <div class="label__instructor-photo">
+                                        <img src="img/coach_main_avatar.jpg" alt="coach_main">
                                     </div>
-                                    <div class="label__instructor-skills">
-                                        <div class="label__instructor-box">
-                                            <div class="label__instructor-item">
-                                                <span>Спорт</span>
-                                            </div>
-                                            <div class="label__instructor-item">
-                                                <img src="img/skis_1.png" alt="skis_1">
-                                            </div>
+                                    <div class="label__instructor-main">
+                                        <div class="label__instructor-name">
+                                            <h3 >Константин Константинопольский</h3>
                                         </div>
-                                        <div class="label__instructor-box">
-                                            <div class="label__instuctor-item">
-                                                <span>Стаж катания</span>
+                                        <div class="label__instructor-skills">
+                                            <div class="label__instructor-box">
+                                                <div class="label__instuctor-title">
+                                                    <span>Спорт</span>
+                                                </div>
+                                                <div class="label__instructor-item">
+                                                    <img src="img/skis_1.png" alt="skis_1">
+                                                </div>
                                             </div>
-                                            <div class="label__instuctor-item">
-                                                <span>7 лет</span>
+                                            <div class="label__instructor-box">
+                                                <div class="label__instuctor-title">
+                                                    <span>Стаж катания</span>
+                                                </div>
+                                                <div class="label__instuctor-item">
+                                                    <span>7 лет</span>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="label__instructor-box">
-                                            <div class="label__instuctor-item">
-                                                <span>Стиль</span>
+                                            <div class="label__instructor-box">
+                                                <div class="label__instuctor-title">
+                                                    <span>Стиль</span>
+                                                </div>
+                                                <div class="label__instuctor-item">
+                                                    <span>
+                                                        #allround<br>
+                                                        #freeride<br>
+                                                        #skiicross<br>
+                                                    </span>
+                                                </div>
                                             </div>
-                                            <div class="label__instuctor-item">
-                                                <span>
-                                                    #allround<br>
-                                                    #freeride<br>
-                                                    #skiicross<br>
-                                                </span>
-                                            </div>
-                                        </div>
 
+                                        </div>
+                                    </div>
+
+                                    <div class="label__instructor-entry">
+                                        <a href="#" class="btn__label-note">Записаться</a>
+                                        <div class="label__instructor-box">
+                                            <a href="#" class="button-flash">5</a>
+                                            <span class="button-flash__text">Спасибо!</span>
+
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="label__instructor-entry">
-                                    <a href="#" class="btn__label-note">Записаться</a>
-                                    <div class="label__instructor-box">
-                                        <a href="#" class="button-flash">5</a>
-                                        <span>Спасибо!</span>
-
-                                    </div>
-                                </div>
-                            </section>
+                            </div>
+                        </section>
 
 
-                            <section class="education">
-                                <div class="container">
+                        <section class="education">
+                            <div class="container-instructor">
+                                <div class="education__wrap">
                                     <div class="relation">
                                         <h3 class="relation__title">Образование</h3>
                                         <p class="relation__content">Национальная лига инструкторов, сертификат инструкторапо  горным лыжам, г. Санкт-Петербург (2014 год). </p>
@@ -123,13 +130,16 @@
                                         <p class="relation__content">3 место на чемпионате Ленинградской области по горным лыжам. 1 место на чемпионате Карелии по горным лыжам.</p>
                                     </div>
                                     <div class="video__profile">
-                                      <iframe class="video__profile-link" width="560" height="315" src="https://www.youtube.com/embed/VYAM_tagJzk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                  </div>
-                              </div>
-                            </section>
+                                        <iframe class="video__profile-link" src="https://www.youtube.com/embed/VYAM_tagJzk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
-                              <section class="survey">
-                                <div class="container">
+                        <section class="survey">
+                            <div class="container-instructor">
+                               <div class="survey__wrap">
+
                                 <h3 class="survey__title">Марина Ильина</h3>
                                 <a href="#"><img class="survey__img" src="img/vk_picture.png" alt="vk"></a>
 
@@ -139,7 +149,8 @@
                                     Цели я своей добилась, он помог мне вновь встать на лыжи и закрепить свои навыки даже
                                 за одно занятие.</p>
                             </div>
-                       </section>
+                        </div>
+                    </section>
 
                     <section class="coach__photo">
                         <div class="container">
@@ -168,41 +179,41 @@
                                     <footer class="page__footer">
 
                                       <div class="container">
-                                       <div class="footer__top">
-                                        <div class="footer_logo">
-                                            <a href="index.html" class="logo">
-                                              <img src="img/ice-ace_logotype_1.png" alt="logo">
-                                          </div>
-                                          <div class="wrapper__social-links">
-                                              <a href="#">
-                                                <img class="wrapper__social-icon" src="img/youtube_picture.png"></a>
-                                                <a href="#">
-                                                  <img class="wrapper__social-icon" src="img/instagram_picture.png"></a>
-                                                  <a href="#">
-                                                    <img class="wrapper__social-icon" src="img/facebook_picture.png"></a>
-                                                    <a href="#">
-                                                      <img class="wrapper__social-icon" src="img/vk_picture.png"></a>
-                                                  </div>
-                                                  <div class="footer__phone">
-                                                      <a href="tel:880080080" class="phone__link">8 (800) 800-80-80</a>
-                                                      <a href="#" class="mail__ice-ace">hello@iceace.com</a>
-                                                  </div>
+                                         <div class="footer__top">
+                                            <div class="footer_logo">
+                                                <a href="index.html" class="logo">
+                                                  <img src="img/ice-ace_logotype_1.png" alt="logo">
                                               </div>
+                                              <div class="wrapper__social-links">
+                                                  <a href="#">
+                                                    <img class="wrapper__social-icon" src="img/youtube_picture.png"></a>
+                                                    <a href="#">
+                                                      <img class="wrapper__social-icon" src="img/instagram_picture.png"></a>
+                                                      <a href="#">
+                                                        <img class="wrapper__social-icon" src="img/facebook_picture.png"></a>
+                                                        <a href="#">
+                                                          <img class="wrapper__social-icon" src="img/vk_picture.png"></a>
+                                                      </div>
+                                                      <div class="footer__phone">
+                                                          <a href="tel:880080080" class="phone__link">8 (800) 800-80-80</a>
+                                                          <a href="#" class="mail__ice-ace">hello@iceace.com</a>
+                                                      </div>
+                                                  </div>
 
-                                              <div class="footer__bottom">
-                                                <p class="copirate">&copy;“ICE ACE”-школа сноуборда и горных лыж. Все права защищены.</p>
-                                                <ul class="footer__menu">
-                                                  <li class="">
-                                                    <a href="schelude.html" class="link">расписание</a>
-                                                </li>
-                                                <li class="">
-                                                    <a href="instructors.html" class="link">инструкторы</a></li>
-                                                    <li class=""><a href="#" class="link">стоимость</a></li>
-                                                    <li class=""><a href="#" class="link">как добраться</a></li>
-                                                </ul>
+                                                  <div class="footer__bottom">
+                                                    <p class="copirate">&copy;“ICE ACE”-школа сноуборда и горных лыж. Все права защищены.</p>
+                                                    <ul class="footer__menu">
+                                                      <li class="">
+                                                        <a href="schelude.html" class="link">расписание</a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a href="instructors.html" class="link">инструкторы</a></li>
+                                                        <li class=""><a href="#" class="link">стоимость</a></li>
+                                                        <li class=""><a href="#" class="link">как добраться</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </footer>
+                                        </footer>
 
-                                </body>
-                                </html>
+                                    </body>
+                                    </html>
